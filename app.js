@@ -60,31 +60,24 @@ let soundBarsLottie = bodymovin.loadAnimation({
 
 let trackList = [
     {
-        name: "Only",
-        artist: "Lee Hi",
-        path: "./music/only.mp3",
+        name: "Off My Face",
+        artist: "Justin Bieber",
+        path: "./music/offmyface.mp3",
     },
     {
-        name: "Day & Night",
-        artist: "Jung Seung Hwan",
-        path: "./music/day and night.mp3",
+        name: "Off My Face",
+        artist: "Justin Bieber",
+        path: "./music/offmyface.mp3",
     },
     {
-        name: "Love of my Life",
-        artist: "Reyne",
-        path: "./music/love of my life.mp3",
-    },
-    {
-        name: "The Only One",
-        artist: "Reyne",
-        path: "./music/the only one.mp3",
-    },
+        name: "Off My Face",
+        artist: "Justin Bieber",
+        path: "./music/offmyface.mp3",
+    }
 ];
 
 // EVENT LISTENERS
 playPauseBtn.addEventListener("click", playPauseTrack);
-nextBtn.addEventListener("click", nextTrack);
-prevBtn.addEventListener("click", prevTrack);
 
 function loadTrack(trackIndex){
     currentTrack.src = trackList[trackIndex].path;
